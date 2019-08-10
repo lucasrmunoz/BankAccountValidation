@@ -5,9 +5,9 @@ public class TestAccount {
     String accountNumber;
     String routingNumber;
     TestAccount(String bankAccount){
-        this.bankAccount = bankAccount;
-        this.routingNumber = bankAccount.substring(0, 9);
-        this.accountNumber = bankAccount.substring(9);
+        this.bankAccount = bankAccount.replaceAll("\\s", "").replace("-", "");
+        this.routingNumber = this.bankAccount.substring(0, 9);
+        this.accountNumber = this.bankAccount.substring(9);
     }
 
     public boolean isValid() {
@@ -18,18 +18,22 @@ public class TestAccount {
     }
 
     public boolean isRoutingNumberValid() {
-        try {
-            routingNumber = routingNumber.replaceAll("\\s", "").replace("-", "");
+            int checkSumTotal = 0;
 
             if (routingNumber.length() != 9){
                 return false;
             }
 
+            for (int i = 0; i < routingNumber.length(); i += 3) {
+                checkSumTotal += Character.getNumericValue(routingNumber.charAt(i)) * 3;
+                checkSumTotal += Character.getNumericValue(routingNumber.charAt(i + 1)) * 7;
+                checkSumTotal += Character.getNumericValue(routingNumber.charAt(i + 2));
+            }
+
+            if ((checkSumTotal % 10) != 0){
+                return false;
+            }
             return true;
-        } catch (Exception exc) {
-            System.out.println("There was a failure with the exception: " + exc.getMessage());
-            return false;
-        }
     }
 
     public boolean isUserAccountValid() {
