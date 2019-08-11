@@ -4,45 +4,9 @@
     <list default="true" id="1962e5ae-0cd2-4ae2-ab31-538fece97782" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GsonTester/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GsonTester/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GsonTester/.gradle/5.2.1/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GsonTester/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GsonTester/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GsonTester/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GsonTester/.gradle/5.2.1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GsonTester/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GsonTester/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GsonTester/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GsonTester/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GsonTester/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GsonTester/.gradle/vcs-1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GsonTester/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GsonTester/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GsonTester/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GsonTester/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GsonTester/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GsonTester/build/classes/java/main/HelloWorld.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GsonTester/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GsonTester/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GsonTester/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GsonTester/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GsonTester/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GsonTester/src/main/java/HelloWorld.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Java.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/Java/Calculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/Java/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/src/Calculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/src/Pokemon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/src/PokemonDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BankAccountValidation/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BankAccountValidation/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BankAccountValidation/com/company/TestAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BankAccountValidation/com/company/TestAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/TestAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/TestAccount.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,13 +22,14 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1PDnvxwokhA4CjrGXBbpCAeueVJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -121,7 +86,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
